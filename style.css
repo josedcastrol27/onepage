@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 {
+  font-size: 88px;
+  font-weight: 300;
+}
+
+.display-2 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.btn {
+  background: #2CBCF2;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+/* Cabe-proncipal */
+#Cabe-proncipal {
+  background: url('../imagenes/xbox.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  padding-top: 160px;
+}
+
+#main-header .logo {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#main-header h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main-header p {
+  width: 70%;
+  padding-bottom: 40px;
+}
+
+/* Description */
+#description {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  text-align:justify;
+}
+
+#description h2 {
+  padding-bottom: 20px;
+}
+
+.description-row {
+  padding-top: 20px;
+}
+
+.description-box {
+  float: left;
+  width: 33%;
+  padding: 25px;
+}
+
+/* Xbox_seccion */
+#Xbox_seccion {
+  background: url('../IMAGENES/xbox-original-1885659.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#Xbox_seccion h4 {
+  padding-bottom: 40px;
+}
+
+#Xbox_seccion img {
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+#Xbox_seccion p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#Xbox_seccion .customer {
+  padding-top: 20px;
+}
+
+/* xbox_360 */
+#xbox_360_seccion {
+  background: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.xbox_360-box {
+  float: left;
+  width: 33%;
+  padding: 25px;
+}
+
+.xbox_360-box img {
+  width: 100%;
+}
+
+
+
+
+#Xbox_Serie_X {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: rgb(11, 173, 6);
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  
+  
+  
+  
+  #Xbox_Serie_X .customer {
+    padding-top: 20px;
+  }
+
+
+
+
+
+
+/* Xbox_X */
+#Xbox_X {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.Xbox_X-image {
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+
+.Xbox_X-image img {
+  width: 100%;
+}
+
+.Xbox_X-text {
+  float: right;
+  width: 50%;
+  padding: 150px 50px;
+}
+
+.Xbox_X-text p {
+  padding-top: 20px;
+}
+
+/* Footer */
+#Piedepagina {
+  background: #F9F9F9;
+  text-align: center;
+  padding: 20px;
+}
+
+#Menu{
+background: #080808;
+color:white;
+position: fixed;
+left:0;
+top: 0;
+right: 0;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.4m;
+}
+
+#Menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #b7bbbd;
+}
+
+
+
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f8f5f7; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #0a090a; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fdfcfc; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #080808; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #080808; 
+  border-color: #0a0809; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #f1f1f1; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+
+  font-size: 39px;  
+  text-align: center; 
+  padding-bottom: 20px; 
+  color: #0e0c0c;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+

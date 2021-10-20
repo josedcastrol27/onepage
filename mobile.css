@@ -1,0 +1,88 @@
+/* Utility Classes */
+.display-1 {
+    font-size: 50px;
+  }
+  
+  .display-2 {
+    font-size: 40px;
+  }
+  
+  /* Cabe-proncipal */
+  #Cabe-proncipal {
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  #Cabe-proncipal p {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  /* Description */
+  #description {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  /* #description h2 {
+    padding-bottom: 20px;
+  }
+  
+  .description-row {
+    padding-top: 20px;
+  } */
+  
+  .description-box {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Xbox_seccion */
+  #Xbox_seccion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #Xbox_seccion h4 {
+    padding-bottom: 20px;
+  }
+  
+  #Xbox_seccion img {
+    border-radius: 50%;
+  }
+  
+  #Xbox_seccion p {
+    width: 100%;
+  }
+  
+  /* xbox_360_seccion */
+  #xbox_360_seccion {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .xbox_360_seccion-box {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Xbox_X */
+  #Xbox_X {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .Xbox_X-image {
+    float: none;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .Xbox_X-text {
+    float: none;
+    width: 100%;
+    padding: 20px 10px;
+  }
